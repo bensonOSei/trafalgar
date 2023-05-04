@@ -1,14 +1,14 @@
 import "./App.css";
-import { ArticlesSection } from "./components/sections/ArticlesSection";
 import { Header } from "./components/sections/Header";
 import { Main } from "./components/sections/Main";
+import { Footer } from "./components/sections/Footer";
 
 function App() {
 	return (
 		<>
 			<Header />
 			<Main />
-			<ArticlesSection />
+			<Footer />
 		</>
 	);
 }

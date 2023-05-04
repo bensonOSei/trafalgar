@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import img from '../../assets/test-image.png';
+
 
 export const Testimonials = () => {
 	return (
@@ -26,7 +28,9 @@ export const Testimonials = () => {
 					>
 					<SwiperSlide className="flex gap-2 items-center py-8">
 						<div className="flex items-center gap-3 w-full ">
-							<div className="w-20 h-20 bg-white rounded-full "></div>
+							<div className="w-20 h-20 bg-white rounded-full overflow-hidden">
+								<img src={img} alt="Customer image" className="w-full h-full object-fill" />
+							</div>
 							<div className="flex flex-col">
 								<h3 className="text-white font-semibold">
 									Edward Newgate
