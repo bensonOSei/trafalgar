@@ -3,8 +3,8 @@ import { SolidButton } from "../buttons/SolidButton";
 
 export const Hero = () => {
 	return (
-		<section className="flex items-center mb-4 mt-20">
-			<div className="flex flex-col items-start gap-4 pr-7">
+		<section className="flex flex-col md:flex-row  items-center mb-4 md:mt-20">
+			<div className="flex flex-col items-start gap-4 md:pr-7">
 				<h1 className="font-bold text-5xl ">
 					Virtual healthcare for you
 				</h1>

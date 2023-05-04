@@ -9,7 +9,7 @@ import img from '../../assets/test-image.png';
 
 export const Testimonials = () => {
 	return (
-		<section className="p-24 flex items-center justify-center w-full max-w-7xl">
+		<section className="md:p-24 flex items-center justify-center w-full max-w-7xl">
 			<div className=" bg-gradient-to-b from-primary-light to-primary-dark w-full max-w-4xl p-8 rounded-xl">
 				<SectionHeader
 					title="What our customers are saying"
@@ -26,8 +26,8 @@ export const Testimonials = () => {
 					loop={true}
 					className="w-full max-w-5xl "
 					>
-					<SwiperSlide className="flex gap-2 items-center py-8">
-						<div className="flex items-center gap-3 w-full ">
+					<SwiperSlide className="flex flex-col md:flex-row gap-2 items-center py-8">
+						<div className="flex justify-center md:justify-start items-center gap-3 w-full ">
 							<div className="w-20 h-20 bg-white rounded-full overflow-hidden">
 								<img src={img} alt="Customer image" className="w-full h-full object-fill" />
 							</div>

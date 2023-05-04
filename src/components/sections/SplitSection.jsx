@@ -2,17 +2,27 @@
 import { OutlinedButton } from "../buttons/OutlinedButton";
 import { SectionHeader } from "../headings/SectionHeader";
 
-export const SplitSection = ({illustration, headerTitle, headerSubTitle, buttonText, direction, icon}) => {
+export const SplitSection = ({
+	illustration,
+	headerTitle,
+	headerSubTitle,
+	buttonText,
+	icon,
+}) => {
 	return (
-		<section className={`mt-24 flex flex-row${direction === "reverse" && "-reverse"} items-center`}>
-			<div className="w-full p-32">
+		<section
+			className={`flex gap-10 md:gap-0 md:flex-row flex-col items-center`}>
+			<div className="w-full md:px-32 ">
 				<div className="flex flex-col gap-3 items-start">
 					<SectionHeader
 						title={headerTitle}
 						subTitle={headerSubTitle}
 						className=" items-start"
 					/>
-					<OutlinedButton text={buttonText} icon={icon} />
+					<OutlinedButton
+						text={buttonText}
+						icon={icon}
+					/>
 				</div>
 			</div>
 
