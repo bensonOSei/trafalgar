@@ -2,8 +2,8 @@ import logo from "../../assets/logo (1).svg";
 
 export const Footer = () => {
 	return (
-		<footer className="flex flex-row items-stretch justify-evenly bg-gradient-to-b from-primary-light to-primary-dark text-white p-24">
-			<div className="flex flex-col gap-3 w-96 justify-evenly">
+		<footer className="flex flex-col-reverse sm:flex-row items-stretch justify-evenly bg-gradient-to-b from-primary-light to-primary-dark text-white p-10 gap-24 sm:p-24">
+			<div className="flex flex-col gap-3 w-full max-w-md justify-evenly">
 				<div>
 					<img
 						src={logo}

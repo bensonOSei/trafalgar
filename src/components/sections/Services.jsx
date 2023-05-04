@@ -11,7 +11,7 @@ import { SectionHeader } from "../headings/SectionHeader";
 
 export const Services = () => {
 	return (
-		<section className="mt-24 flex flex-col items-center">
+		<section className="mt-1 md:mt-24 flex flex-col items-center">
 			<SectionHeader
 				title="Our Services"
 				subTitle="We provide to you the best choiches for you. 

@@ -12,7 +12,7 @@ export const ArticlesSection = () => {
 				title="Check out our latest article"
 				className="text-center items-center"
 			/>
-			<div className="flex flex-wrap justify-evenly w-full ">
+			<div className="flex flex-wrap justify-center gap-5 w-full ">
 				<ArticleCard
 					title="Disease detection, check up in the laboratory"
 					snippet="In this case, the role of the health laboratory is very important to do a disease detection..."
